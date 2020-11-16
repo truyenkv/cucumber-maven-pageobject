@@ -14,26 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaab8e60-a2fd-4941-a212-aa1e1ec291f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/DataUntil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/GlobalConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DashboardPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PageGeneratorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserLoginPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/AbstractPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/DashboardPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/HomePageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/RegisterPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/UserLoginPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/RegisterAccount.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DashboardPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegisterPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/feature/RegisterAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/RegisterAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-report-default/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +61,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/pageUI" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -135,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605450257018</updated>
       <workItem from="1605450259621" duration="9613000" />
-      <workItem from="1605535470446" duration="4010000" />
+      <workItem from="1605535470446" duration="5933000" />
     </task>
     <servers />
   </component>
@@ -163,26 +148,26 @@
       <screen x="1680" y="23" width="1080" height="1897" />
     </state>
     <state x="2052" y="670" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605459243856" />
-    <state width="1038" height="384" key="GridCell.Tab.0.bottom" timestamp="1605543563321">
+    <state width="1038" height="384" key="GridCell.Tab.0.bottom" timestamp="1605544361987">
       <screen x="1680" y="23" width="1080" height="1897" />
     </state>
     <state width="1038" height="384" key="GridCell.Tab.0.bottom/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614876" />
-    <state width="1038" height="384" key="GridCell.Tab.0.bottom/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563321" />
-    <state width="1038" height="384" key="GridCell.Tab.0.center" timestamp="1605543563320">
+    <state width="1038" height="384" key="GridCell.Tab.0.bottom/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605544361987" />
+    <state width="1038" height="384" key="GridCell.Tab.0.center" timestamp="1605544361986">
       <screen x="1680" y="23" width="1080" height="1897" />
     </state>
     <state width="1038" height="384" key="GridCell.Tab.0.center/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
-    <state width="1038" height="384" key="GridCell.Tab.0.center/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563320" />
-    <state width="1038" height="384" key="GridCell.Tab.0.left" timestamp="1605543563319">
+    <state width="1038" height="384" key="GridCell.Tab.0.center/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605544361986" />
+    <state width="1038" height="384" key="GridCell.Tab.0.left" timestamp="1605544361986">
       <screen x="1680" y="23" width="1080" height="1897" />
     </state>
     <state width="1038" height="384" key="GridCell.Tab.0.left/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
-    <state width="1038" height="384" key="GridCell.Tab.0.left/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563319" />
-    <state width="1038" height="384" key="GridCell.Tab.0.right" timestamp="1605543563320">
+    <state width="1038" height="384" key="GridCell.Tab.0.left/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605544361986" />
+    <state width="1038" height="384" key="GridCell.Tab.0.right" timestamp="1605544361987">
       <screen x="1680" y="23" width="1080" height="1897" />
     </state>
     <state width="1038" height="384" key="GridCell.Tab.0.right/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
-    <state width="1038" height="384" key="GridCell.Tab.0.right/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563320" />
+    <state width="1038" height="384" key="GridCell.Tab.0.right/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605544361987" />
     <state x="1927" y="715" width="586" height="490" key="find.popup" timestamp="1605450299718">
       <screen x="1680" y="0" width="1080" height="1920" />
     </state>
