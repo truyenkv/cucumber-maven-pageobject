@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aaab8e60-a2fd-4941-a212-aa1e1ec291f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/DataUntil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/GlobalConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DashboardPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PageGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserLoginPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/AbstractPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/DashboardPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/HomePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/RegisterPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/UserLoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/feature/RegisterAccount.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DashboardPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegisterPageSteps.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1kKXSSQdYF2RmaolVz1vTtYM6iP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/pageUI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pageUI" />
+      <recent name="pageObjects" />
+      <recent name="stepDefinitions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/pageUI" />
+      <recent name="$PROJECT_DIR$/src/main/java/pageObjects" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber-maven-pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aaab8e60-a2fd-4941-a212-aa1e1ec291f7" name="Default Changelist" comment="" />
+      <created>1605450257018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605450257018</updated>
+      <workItem from="1605450259621" duration="9613000" />
+      <workItem from="1605535470446" duration="4010000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1962" y="765" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605459963412">
+      <screen x="1680" y="23" width="1080" height="1897" />
+    </state>
+    <state x="1962" y="765" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605459963412" />
+    <state x="2052" y="670" key="#com.intellij.ide.util.MemberChooser" timestamp="1605459243856">
+      <screen x="1680" y="23" width="1080" height="1897" />
+    </state>
+    <state x="2052" y="670" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605459243856" />
+    <state width="1038" height="384" key="GridCell.Tab.0.bottom" timestamp="1605543563321">
+      <screen x="1680" y="23" width="1080" height="1897" />
+    </state>
+    <state width="1038" height="384" key="GridCell.Tab.0.bottom/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614876" />
+    <state width="1038" height="384" key="GridCell.Tab.0.bottom/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563321" />
+    <state width="1038" height="384" key="GridCell.Tab.0.center" timestamp="1605543563320">
+      <screen x="1680" y="23" width="1080" height="1897" />
+    </state>
+    <state width="1038" height="384" key="GridCell.Tab.0.center/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
+    <state width="1038" height="384" key="GridCell.Tab.0.center/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563320" />
+    <state width="1038" height="384" key="GridCell.Tab.0.left" timestamp="1605543563319">
+      <screen x="1680" y="23" width="1080" height="1897" />
+    </state>
+    <state width="1038" height="384" key="GridCell.Tab.0.left/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
+    <state width="1038" height="384" key="GridCell.Tab.0.left/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563319" />
+    <state width="1038" height="384" key="GridCell.Tab.0.right" timestamp="1605543563320">
+      <screen x="1680" y="23" width="1080" height="1897" />
+    </state>
+    <state width="1038" height="384" key="GridCell.Tab.0.right/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
+    <state width="1038" height="384" key="GridCell.Tab.0.right/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563320" />
+    <state x="1927" y="715" width="586" height="490" key="find.popup" timestamp="1605450299718">
+      <screen x="1680" y="0" width="1080" height="1920" />
+    </state>
+    <state x="1927" y="715" width="586" height="490" key="find.popup/0.0.1680.1050/1680.0.1080.1920@1680.0.1080.1920" timestamp="1605450299718" />
+    <state x="1885" y="469" key="search.everywhere.popup" timestamp="1605460366548">
+      <screen x="1680" y="23" width="1080" height="1897" />
+    </state>
+    <state x="1885" y="451" key="search.everywhere.popup/0.0.1680.1050/1680.0.1080.1920@1680.0.1080.1920" timestamp="1605454650358" />
+    <state x="1885" y="469" key="search.everywhere.popup/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605460366548" />
+  </component>
+</project>

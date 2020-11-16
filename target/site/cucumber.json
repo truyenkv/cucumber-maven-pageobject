@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Register Account",
+        "description": "",
+        "id": "register-account-and-login;register-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4848686451,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open the Home page",
+            "match": {
+              "location": "HomePageSteps.i_open_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1647964565,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on Visit here link",
+            "match": {
+              "location": "HomePageSteps.i_click_on_visit_here_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2201107821,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I input my email to the Email ID field and Submit",
+            "match": {
+              "location": "RegisterPageSteps.i_input_my_email_to_the_email_id_field_and_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90886257,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get the UserID and Password",
+            "match": {
+              "location": "RegisterPageSteps.i_get_the_userid_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1769358701,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I back to Home page",
+            "match": {
+              "location": "RegisterPageSteps.i_back_to_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 283972178,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the UserID and Password to the login form",
+            "match": {
+              "location": "HomePageSteps.i_enter_the_userid_and_password_to_the_login_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2985921900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Login button",
+            "match": {
+              "location": "HomePageSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 351539538,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I can see my UserID on the Dashboard",
+            "match": {
+              "location": "DashboardPageSteps.i_can_see_my_userid_on_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register Account and Login",
+    "description": "",
+    "id": "register-account-and-login",
+    "keyword": "Feature",
+    "uri": "RegisterAccount.feature"
+  }
+]
