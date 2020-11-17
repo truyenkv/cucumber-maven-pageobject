@@ -16,6 +16,10 @@ public class PageGeneratorManager {
 	public static DashboardPageObject getDashboard(WebDriver driver) {
 		return new DashboardPageObject(driver);
 	}
+
+	public static NewCustomerPageObject getNewCustomer(WebDriver driver){
+		return new NewCustomerPageObject(driver);
+	}
 	
 
 	

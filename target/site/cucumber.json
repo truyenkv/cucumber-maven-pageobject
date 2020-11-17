@@ -3,19 +3,19 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 29,
         "name": "Register Account",
         "description": "",
-        "id": "register-account-and-login;register-account",
+        "id": "register-account-and-login;register-account;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5468866466,
+              "duration": 5323175424,
               "status": "passed"
             },
-            "line": 4,
+            "line": 15,
             "name": "I open the Home page",
             "match": {
               "location": "HomePageSteps.i_open_the_home_page()"
@@ -24,85 +24,136 @@
           },
           {
             "result": {
-              "duration": 487577563,
+              "duration": 2813677,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I click on Visit here link",
+            "line": 16,
+            "name": "I enter the UserId \"mngr295153\" and Password is \"Esavupy\" to the login form",
             "match": {
-              "location": "HomePageSteps.i_click_on_visit_here_link()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1967431269,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I input my email to the Email ID field and Submit",
-            "match": {
-              "location": "RegisterPageSteps.i_input_my_email_to_the_email_id_field_and_submit()"
+              "arguments": [
+                {
+                  "val": "mngr295153",
+                  "offset": 20
+                },
+                {
+                  "val": "Esavupy",
+                  "offset": 49
+                }
+              ],
+              "location": "HomePageSteps.i_enter_the_userid_something_and_password_is_something_to_the_login_form(String,String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 97596275,
+              "duration": 1003543,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I get the UserID and Password",
+            "line": 17,
+            "name": "I click New Customer on the Left menu",
             "match": {
-              "location": "RegisterPageSteps.i_get_the_userid_and_password()"
+              "location": "DashboardPageSteps.i_click_new_customer_on_the_left_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2104284,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I add the user information",
+            "match": {
+              "location": "NewCustomerPageSteps.i_add_the_user_information(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Customer Name",
+                  "Date of Birth",
+                  "Address",
+                  "City",
+                  "State",
+                  "PIN",
+                  "Mobile Number",
+                  "Email",
+                  "Password"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Truyen kieu",
+                  "10/10/1991",
+                  "123 Ngo Tat To",
+                  "Ho Chi Minh",
+                  "Phu Nhuan",
+                  "1234565",
+                  "0984443434",
+                  "truyen01@yop.com",
+                  "1234556"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37875,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the Submit button",
+            "match": {
+              "location": "NewCustomerPageSteps.i_click_the_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41392,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I see the information of Customer displays correctly",
+            "match": {
+              "location": "NewCustomerPageSteps.i_see_the_information_of_customer_displa_correctly()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1176977236,
+              "duration": 28676,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I back to Home page",
+            "line": 23,
+            "name": "I click Continue button",
             "match": {
-              "location": "RegisterPageSteps.i_back_to_home_page()"
+              "location": "NewCustomerPageSteps.i_click_continue_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 200117072,
+              "duration": 24360,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I enter the UserID and Password to the login form",
+            "line": 24,
+            "name": "I back to Dashboard button",
             "match": {
-              "location": "HomePageSteps.i_enter_the_userid_and_password_to_the_login_form()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1469391801,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click on Login button",
-            "match": {
-              "location": "HomePageSteps.i_click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 42990882,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I can see my UserID on the Dashboard",
-            "match": {
-              "location": "DashboardPageSteps.i_can_see_my_userid_on_the_dashboard()"
+              "location": "DashboardPageSteps.i_back_to_dashboard_button()"
             },
             "keyword": "Then "
           }
