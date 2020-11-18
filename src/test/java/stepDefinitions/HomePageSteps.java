@@ -39,7 +39,7 @@ public class HomePageSteps {
 
     @And("^I enter the UserId \"([^\"]*)\" and Password is \"([^\"]*)\" to the login form$")
     public void i_enter_the_userid_something_and_password_is_something_to_the_login_form(String UserID, String Password){
-
+        homePage.loginWithEmailAndPassword(UserID, Password);
     }
 
 

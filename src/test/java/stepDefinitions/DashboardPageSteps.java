@@ -25,7 +25,7 @@ public class DashboardPageSteps {
 
     @When("^I click New Customer on the Left menu$")
     public void i_click_new_customer_on_the_left_menu() {
-
+        dashboardPageObject.clickOnNewCustomerMenu();
     }
 
     @Then("^I back to Dashboard button$")
