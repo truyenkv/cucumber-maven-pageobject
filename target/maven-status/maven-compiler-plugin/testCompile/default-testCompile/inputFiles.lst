@@ -1,7 +1,11 @@
 /Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/cucumberOptions/Hooks.java
+/Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/stepDefinitions/TextContext.java
 /Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/cucumberOptions/Test1Runner.java
 /Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/stepDefinitions/HomePageSteps.java
+/Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/stepDefinitions/Context.java
 /Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/stepDefinitions/DashboardPageSteps.java
 /Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/stepDefinitions/RegisterPageSteps.java
 /Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/stepDefinitions/NewCustomerPageSteps.java
+/Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/stepDefinitions/DataContext.java
+/Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/cucumberOptions/Test3Runner.java
 /Users/kieuvantruyen/Documents/Automation_Testing/SeleniumWebdriver/cucumber-maven-pageobject/src/test/java/cucumberOptions/Test2Runner.java

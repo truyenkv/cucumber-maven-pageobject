@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4688196169,
+              "duration": 5858472080,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2381424840,
+              "duration": 583750412,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1056263057,
+              "duration": 2038404121,
               "status": "passed"
             },
             "line": 8,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 81586945,
+              "duration": 82281867,
               "status": "passed"
             },
             "line": 9,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 1407041726,
+              "duration": 1183763164,
               "status": "passed"
             },
             "line": 10,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 361879175,
+              "duration": 204047687,
               "status": "passed"
             },
             "line": 11,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 1714052160,
+              "duration": 486207355,
               "status": "passed"
             },
             "line": 12,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 42938586,
+              "duration": 703421003,
               "status": "passed"
             },
             "line": 13,
@@ -115,6 +115,10 @@
           {
             "line": 4,
             "name": "@test1"
+          },
+          {
+            "line": 4,
+            "name": "@textContext"
           }
         ]
       },
@@ -128,7 +132,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1486394015,
+              "duration": 1881528483,
               "status": "passed"
             },
             "line": 17,
@@ -140,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 1178264313,
+              "duration": 1517444610,
               "status": "passed"
             },
             "line": 18,
@@ -162,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 629976462,
+              "duration": 687119567,
               "status": "passed"
             },
             "line": 19,
@@ -174,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 796472097,
+              "duration": 827906619,
               "status": "passed"
             },
             "line": 20,
@@ -217,7 +221,7 @@
                   "Phu Nhuan",
                   "123456",
                   "0984443434",
-                  "t400@yop.com",
+                  "t40d@yop.com",
                   "Aa123456"
                 ],
                 "line": 22
@@ -227,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 1340512588,
+              "duration": 536663027,
               "status": "passed"
             },
             "line": 23,
@@ -239,8 +243,9 @@
           },
           {
             "result": {
-              "duration": 328616539,
-              "status": "passed"
+              "duration": 20928210,
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}\n  (Session info: chrome\u003d87.0.4280.67): Email Address Already Exist !!\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MacintoshHDsMBP\u0027, ip: \u00272405:4802:9197:2a50:a683:e7ff:fe7f:44cf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/fx/kgm9kb4x1g3...}, goog:chromeOptions: {debuggerAddress: localhost:51545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b5a8602b07deac821442ab313033c8dd\n*** Element info: {Using\u003dxpath, value\u003d//td[contains(text(),\u0027Customer Name\u0027)]/following-sibling::td}\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat common.AbstractPage.waitForElementVisible(AbstractPage.java:332)\n\tat pageObjects.NewCustomerPageObject.getCustomerName(NewCustomerPageObject.java:36)\n\tat stepDefinitions.NewCustomerPageSteps.i_see_the_information_of_customer_displa_correctly(NewCustomerPageSteps.java:42)\n\tat ✽.Then I see the information of Customer displays correctly(Featear01.feature:24)\n",
+              "status": "failed"
             },
             "line": 24,
             "name": "I see the information of Customer displays correctly",
@@ -282,7 +287,7 @@
                   "Phu Nhuan",
                   "123456",
                   "0984443434",
-                  "t400@yop.com",
+                  "t40d@yop.com",
                   "Aa123456"
                 ],
                 "line": 26
@@ -292,8 +297,7 @@
           },
           {
             "result": {
-              "duration": 886430735,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "I click Continue button",
@@ -304,8 +308,7 @@
           },
           {
             "result": {
-              "duration": 36315784,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
             "name": "I back to Dashboard button and see \"mngr295153\" display.",

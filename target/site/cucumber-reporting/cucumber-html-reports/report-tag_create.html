@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>SELENIUM ONLINE - BANK GURU</td>
               <td>1</td>
-            <td>21 Nov 2020, 13:18</td>
+            <td>21 Nov 2020, 23:40</td>
     </tr>
   </tbody>
 </table>
@@ -130,18 +130,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@create</td>
-                    <td      class="passed"    >10</td>
+                    <td      class="passed"    >5</td>
           <td      class="failed"    >1</td>
-          <td     class="skipped"   >5</td>
+          <td     class="skipped"   >2</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">16</td>
+          <td class="total">8</td>
 
-          <td  class="passed"    >1</td>
+          <td >0</td>
           <td  class="failed"    >1</td>
-          <td class="total">2</td>
+          <td class="total">1</td>
 
-          <td class="duration" data-value="312499059697">5:12.499</td>
+          <td class="duration" data-value="5471590516">5.471</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -174,19 +174,19 @@ $(document).ready(function() {
 <div class="element">
       <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_Feature02-feature.html">Register Account and Login</a>
+      <a href="report-feature_Featear01-feature.html">Register Account and Login</a>
     </div>
   
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_feature02.html">@feature02</a>
            <a href="report-tag_create.html">@create</a>
            <a href="report-tag_test2.html">@test2</a>
+           <a href="report-tag_feature01.html">@feature01</a>
       </div>
 
   
-  <span class="lead-duration duration">5:5.816</span>
+  <span class="lead-duration duration">5.471</span>
 
 
     <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -227,7 +227,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I open the Home page</span>
   
-  <span class="lead-duration duration">4.389</span>
+  <span class="lead-duration duration">1.881</span>
 
   </div>
 
@@ -252,7 +252,106 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I enter the UserId &quot;mngr295153&quot; and Password is &quot;Esavupy&quot; to the login form</span>
   
-  <span class="lead-duration duration">0.279</span>
+  <span class="lead-duration duration">1.517</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">I click New Customer on the Left menu</span>
+  
+  <span class="lead-duration duration">0.687</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">I add the user information</span>
+  
+  <span class="lead-duration duration">0.827</span>
+
+  </div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>CustomerName</td>
+                                  <td>DateofBirth</td>
+                                  <td>Address</td>
+                                  <td>City</td>
+                                  <td>State</td>
+                                  <td>PIN</td>
+                                  <td>MobileNumber</td>
+                                  <td>Email</td>
+                                  <td>Password</td>
+                              </tr>
+                          <tr>
+                                  <td>Truyenkieu</td>
+                                  <td>10-10-1991</td>
+                                  <td>123 Ngo Tat To</td>
+                                  <td>Ho Chi Minh</td>
+                                  <td>Phu Nhuan</td>
+                                  <td>123456</td>
+                                  <td>0984443434</td>
+                                  <td>t40d@yop.com</td>
+                                  <td>Aa123456</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the Submit button</span>
+  
+  <span class="lead-duration duration">0.536</span>
 
   </div>
 
@@ -274,10 +373,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief failed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click New Customer on the Left menu</span>
+  <span class="keyword indention">Then</span>
+  <span class="name">I see the information of Customer displays correctly</span>
   
-  <span class="lead-duration duration">5:1.146</span>
+  <span class="lead-duration duration">0.020</span>
 
   </div>
 
@@ -288,63 +387,39 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>org.openqa.selenium.TimeoutException:</a>
+          <a>org.openqa.selenium.UnhandledAlertException:</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000
-  (Session info: chrome=87.0.4280.67)
+        <pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=87.0.4280.67): Email Address Already Exist !!
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MacintoshHDsMBP', ip: '2405:4802:9197:2a50:a683:e7ff:fe7f:44cf%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/fx/kgm9kb4x1g3...}, goog:chromeOptions: {debuggerAddress: localhost:60303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b7704976d59c793ba300eab74db67463
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/fx/kgm9kb4x1g3...}, goog:chromeOptions: {debuggerAddress: localhost:51545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b5a8602b07deac821442ab313033c8dd
+*** Element info: {Using=xpath, value=//td[contains(text(),'Customer Name')]/following-sibling::td}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at common.AbstractPage.clickToElement(AbstractPage.java:155)
-	at pageObjects.DashboardPageObject.clickOnNewCustomerMenu(DashboardPageObject.java:22)
-	at stepDefinitions.DashboardPageSteps.i_click_new_customer_on_the_left_menu(DashboardPageSteps.java:28)
-	at &#10045;.When I click New Customer on the Left menu(Feature02.feature:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at common.AbstractPage.waitForElementVisible(AbstractPage.java:332)
+	at pageObjects.NewCustomerPageObject.getCustomerName(NewCustomerPageObject.java:36)
+	at stepDefinitions.NewCustomerPageSteps.i_see_the_information_of_customer_displa_correctly(NewCustomerPageSteps.java:42)
+	at &#10045;.Then I see the information of Customer displays correctly(Featear01.feature:24)
 </pre>
       </div>
     </div>
   </div>
 
 
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">I add the user information</span>
-  
-  <span class="lead-duration duration">0.000</span>
-
-  </div>
-
-        
-
-        
-
-
                   <table class="step-arguments">
                           <tr>
                                   <td>CustomerName</td>
@@ -365,81 +440,7 @@ Session ID: b7704976d59c793ba300eab74db67463
                                   <td>Phu Nhuan</td>
                                   <td>123456</td>
                                   <td>0984443434</td>
-                                  <td>t44@yop.com</td>
-                                  <td>Aa123456</td>
-                              </tr>
-                      </table>
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief skipped">
-  <span class="keyword indention">When</span>
-  <span class="name">I click the Submit button</span>
-  
-  <span class="lead-duration duration">0.000</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">I see the information of Customer displays correctly</span>
-  
-  <span class="lead-duration duration">0.000</span>
-
-  </div>
-
-        
-
-        
-
-
-                  <table class="step-arguments">
-                          <tr>
-                                  <td>CustomerName</td>
-                                  <td>DateofBirth</td>
-                                  <td>Address</td>
-                                  <td>City</td>
-                                  <td>State</td>
-                                  <td>PIN</td>
-                                  <td>MobileNumber</td>
-                                  <td>Email</td>
-                                  <td>Password</td>
-                              </tr>
-                          <tr>
-                                  <td>Truyenkieu</td>
-                                  <td>10-10-1991</td>
-                                  <td>123 Ngo Tat To</td>
-                                  <td>Ho Chi Minh</td>
-                                  <td>Phu Nhuan</td>
-                                  <td>123456</td>
-                                  <td>0984443434</td>
-                                  <td>t44@yop.com</td>
+                                  <td>t40d@yop.com</td>
                                   <td>Aa123456</td>
                               </tr>
                       </table>
@@ -485,314 +486,6 @@ Session ID: b7704976d59c793ba300eab74db67463
   <span class="name">I back to Dashboard button and see &quot;mngr295153&quot; display.</span>
   
   <span class="lead-duration duration">0.000</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                  
-<div class="element">
-      <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_Featear01-feature_1.html">Register Account and Login</a>
-    </div>
-  
-  
-<div class="tags indention">
-      <b>Tags:</b>
-           <a href="report-tag_create.html">@create</a>
-           <a href="report-tag_test2.html">@test2</a>
-           <a href="report-tag_feature01.html">@feature01</a>
-      </div>
-
-  
-  <span class="lead-duration duration">6.682</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
-    
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Create User Account</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-4" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-5" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I open the Home page</span>
-  
-  <span class="lead-duration duration">1.486</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I enter the UserId &quot;mngr295153&quot; and Password is &quot;Esavupy&quot; to the login form</span>
-  
-  <span class="lead-duration duration">1.178</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click New Customer on the Left menu</span>
-  
-  <span class="lead-duration duration">0.629</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I add the user information</span>
-  
-  <span class="lead-duration duration">0.796</span>
-
-  </div>
-
-        
-
-        
-
-
-                  <table class="step-arguments">
-                          <tr>
-                                  <td>CustomerName</td>
-                                  <td>DateofBirth</td>
-                                  <td>Address</td>
-                                  <td>City</td>
-                                  <td>State</td>
-                                  <td>PIN</td>
-                                  <td>MobileNumber</td>
-                                  <td>Email</td>
-                                  <td>Password</td>
-                              </tr>
-                          <tr>
-                                  <td>Truyenkieu</td>
-                                  <td>10-10-1991</td>
-                                  <td>123 Ngo Tat To</td>
-                                  <td>Ho Chi Minh</td>
-                                  <td>Phu Nhuan</td>
-                                  <td>123456</td>
-                                  <td>0984443434</td>
-                                  <td>t400@yop.com</td>
-                                  <td>Aa123456</td>
-                              </tr>
-                      </table>
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click the Submit button</span>
-  
-  <span class="lead-duration duration">1.340</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I see the information of Customer displays correctly</span>
-  
-  <span class="lead-duration duration">0.328</span>
-
-  </div>
-
-        
-
-        
-
-
-                  <table class="step-arguments">
-                          <tr>
-                                  <td>CustomerName</td>
-                                  <td>DateofBirth</td>
-                                  <td>Address</td>
-                                  <td>City</td>
-                                  <td>State</td>
-                                  <td>PIN</td>
-                                  <td>MobileNumber</td>
-                                  <td>Email</td>
-                                  <td>Password</td>
-                              </tr>
-                          <tr>
-                                  <td>Truyenkieu</td>
-                                  <td>10-10-1991</td>
-                                  <td>123 Ngo Tat To</td>
-                                  <td>Ho Chi Minh</td>
-                                  <td>Phu Nhuan</td>
-                                  <td>123456</td>
-                                  <td>0984443434</td>
-                                  <td>t400@yop.com</td>
-                                  <td>Aa123456</td>
-                              </tr>
-                      </table>
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click Continue button</span>
-  
-  <span class="lead-duration duration">0.886</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I back to Dashboard button and see &quot;mngr295153&quot; display.</span>
-  
-  <span class="lead-duration duration">0.036</span>
 
   </div>
 
