@@ -2,18 +2,19 @@ package pageObjects;
 
 import com.github.javafaker.Faker;
 import common.AbstractPage;
+import common.DataUntil;
 import org.openqa.selenium.WebDriver;
 import pageUI.RegisterPageUI;
 
 public class RegisterPageObject extends AbstractPage {
 
 	WebDriver driver;
-	Faker faker = new Faker();
+//	Faker faker = new Faker();
 	String email;
 	
 	public RegisterPageObject(WebDriver driver) {
 		this.driver = driver;
-		email = faker.internet().emailAddress();
+		email = DataUntil.getData().getEmail();
 	}
 
 	public void inputEmailToEmailField(){

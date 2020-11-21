@@ -17,4 +17,12 @@
           return SplitBy(getElementText(driver, DashboardPageUI.USER_ID),1);
       }
 
+      public void clickOnNewCustomerMenu() {
+          waitForElementVisible(driver, DashboardPageUI.NEW_CUSTOMER);
+          clickToElement(driver, DashboardPageUI.NEW_CUSTOMER);
+      }
+
+      public void closeScreen() {
+          driver.quit();
+      }
   }

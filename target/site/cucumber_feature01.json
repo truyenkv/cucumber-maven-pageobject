@@ -1,0 +1,352 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Register Account",
+        "description": "",
+        "id": "register-account-and-login;register-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4688196169,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open the Home page",
+            "match": {
+              "location": "HomePageSteps.i_open_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2381424840,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Visit here link",
+            "match": {
+              "location": "HomePageSteps.i_click_on_visit_here_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1056263057,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input my email to the Email ID field and Submit",
+            "match": {
+              "location": "RegisterPageSteps.i_input_my_email_to_the_email_id_field_and_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81586945,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get the UserID and Password",
+            "match": {
+              "location": "RegisterPageSteps.i_get_the_userid_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1407041726,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I back to Home page",
+            "match": {
+              "location": "RegisterPageSteps.i_back_to_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361879175,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the UserID and Password to the login form",
+            "match": {
+              "location": "HomePageSteps.i_enter_the_userid_and_password_to_the_login_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1714052160,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Login button",
+            "match": {
+              "location": "HomePageSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42938586,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I can see my UserID on the Dashboard",
+            "match": {
+              "location": "DashboardPageSteps.i_can_see_my_userid_on_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@register"
+          },
+          {
+            "line": 4,
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Create User Account",
+        "description": "",
+        "id": "register-account-and-login;create-user-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1486394015,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I open the Home page",
+            "match": {
+              "location": "HomePageSteps.i_open_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1178264313,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the UserId \"mngr295153\" and Password is \"Esavupy\" to the login form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr295153",
+                  "offset": 20
+                },
+                {
+                  "val": "Esavupy",
+                  "offset": 49
+                }
+              ],
+              "location": "HomePageSteps.i_enter_the_userid_something_and_password_is_something_to_the_login_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629976462,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click New Customer on the Left menu",
+            "match": {
+              "location": "DashboardPageSteps.i_click_new_customer_on_the_left_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 796472097,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I add the user information",
+            "match": {
+              "location": "NewCustomerPageSteps.i_add_the_user_information(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "CustomerName",
+                  "DateofBirth",
+                  "Address",
+                  "City",
+                  "State",
+                  "PIN",
+                  "MobileNumber",
+                  "Email",
+                  "Password"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Truyenkieu",
+                  "10-10-1991",
+                  "123 Ngo Tat To",
+                  "Ho Chi Minh",
+                  "Phu Nhuan",
+                  "123456",
+                  "0984443434",
+                  "t400@yop.com",
+                  "Aa123456"
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1340512588,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the Submit button",
+            "match": {
+              "location": "NewCustomerPageSteps.i_click_the_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 328616539,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I see the information of Customer displays correctly",
+            "match": {
+              "location": "NewCustomerPageSteps.i_see_the_information_of_customer_displa_correctly(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "CustomerName",
+                  "DateofBirth",
+                  "Address",
+                  "City",
+                  "State",
+                  "PIN",
+                  "MobileNumber",
+                  "Email",
+                  "Password"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "Truyenkieu",
+                  "10-10-1991",
+                  "123 Ngo Tat To",
+                  "Ho Chi Minh",
+                  "Phu Nhuan",
+                  "123456",
+                  "0984443434",
+                  "t400@yop.com",
+                  "Aa123456"
+                ],
+                "line": 26
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 886430735,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click Continue button",
+            "match": {
+              "location": "NewCustomerPageSteps.i_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36315784,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I back to Dashboard button and see \"mngr295153\" display.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr295153",
+                  "offset": 36
+                }
+              ],
+              "location": "DashboardPageSteps.i_back_to_dashboard_button_and_see_something_display(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@create"
+          },
+          {
+            "line": 15,
+            "name": "@test2"
+          },
+          {
+            "line": 1,
+            "name": "@feature01"
+          }
+        ]
+      }
+    ],
+    "name": "Register Account and Login",
+    "description": "",
+    "id": "register-account-and-login",
+    "keyword": "Feature",
+    "uri": "Featear01.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@feature01"
+      }
+    ]
+  }
+]

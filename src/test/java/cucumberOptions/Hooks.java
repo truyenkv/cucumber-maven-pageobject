@@ -2,6 +2,7 @@ package cucumberOptions;
 
 import common.GlobalConstant;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class Hooks {
     private static WebDriver driver;
 
+    @Before
     public synchronized static WebDriver openAndQuitBrowser(){
         String browser = System.getProperty("BROWSER");
         if(driver == null){
@@ -49,7 +51,8 @@ public class Hooks {
             finally {
                 Runtime.getRuntime().addShutdownHook(new Thread(new BrowserCleanup()));
             }
-            driver.get(GlobalConstant.URL);
+//            driver.get(GlobalConstant.URL);
+            driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
 

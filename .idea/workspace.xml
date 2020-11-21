@@ -14,26 +14,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaab8e60-a2fd-4941-a212-aa1e1ec291f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/DataUntil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/GlobalConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DashboardPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PageGeneratorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserLoginPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/AbstractPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/DashboardPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/HomePageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/RegisterPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/UserLoginPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/RegisterAccount.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DashboardPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegisterPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/Test2Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/Test3Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/feature/Feature02.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DataContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/TextContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DashboardPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DashboardPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/NewCustomerPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/NewCustomerPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageUI/NewCustomerPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageUI/NewCustomerPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/Test1Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/feature/RegisterAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/Featear01.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DashboardPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DashboardPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/NewCustomerPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/NewCustomerPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/AbstractPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/DataUntil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/GlobalConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/DashboardPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/NewCustomerPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PageGeneratorManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/RegisterPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/UserLoginPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/AbstractPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/DashboardPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/HomePageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/RegisterPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/UserLoginPageUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Hooks$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Hooks$BrowserCleanup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/DashboardPageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/HomePageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/NewCustomerPageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/RegisterPageSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +73,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -76,22 +104,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/pageUI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/feature" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cucumberOptions" />
       <recent name="pageUI" />
-      <recent name="pageObjects" />
       <recent name="stepDefinitions" />
+      <recent name="pageObjects" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/feature" />
       <recent name="$PROJECT_DIR$/src/main/java/pageUI" />
       <recent name="$PROJECT_DIR$/src/main/java/pageObjects" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Test3Runner">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -105,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cucumber-maven-pageobject" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +145,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cucumberOptions" />
-      <option name="MAIN_CLASS_NAME" value="cucumberOptions.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.Test1Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber-maven-pageobject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.Test3Runner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,7 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.Test3Runner" />
+        <item itemvalue="JUnit.Test1Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +182,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605450257018</updated>
       <workItem from="1605450259621" duration="9613000" />
-      <workItem from="1605535470446" duration="4010000" />
+      <workItem from="1605535470446" duration="7071000" />
+      <workItem from="1605627096932" duration="21692000" />
+      <workItem from="1605934090221" duration="5092000" />
     </task>
     <servers />
   </component>
@@ -155,6 +204,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="474" y="210" key="#Inspections" timestamp="1605804936952">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="474" y="210" key="#Inspections/1680.0.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1605804936952" />
     <state x="1962" y="765" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605459963412">
       <screen x="1680" y="23" width="1080" height="1897" />
     </state>
@@ -163,34 +216,61 @@
       <screen x="1680" y="23" width="1080" height="1897" />
     </state>
     <state x="2052" y="670" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605459243856" />
-    <state width="1038" height="384" key="GridCell.Tab.0.bottom" timestamp="1605543563321">
-      <screen x="1680" y="23" width="1080" height="1897" />
+    <state width="1038" height="480" key="GridCell.Tab.0.bottom" timestamp="1605893313617">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1038" height="480" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605893313617" />
     <state width="1038" height="384" key="GridCell.Tab.0.bottom/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614876" />
-    <state width="1038" height="384" key="GridCell.Tab.0.bottom/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563321" />
-    <state width="1038" height="384" key="GridCell.Tab.0.center" timestamp="1605543563320">
-      <screen x="1680" y="23" width="1080" height="1897" />
+    <state width="1038" height="384" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605627073773" />
+    <state width="1638" height="168" key="GridCell.Tab.0.bottom/1680.0.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1605805953952" />
+    <state width="1038" height="480" key="GridCell.Tab.0.bottom/1680.0.1080.1920/0.0.1680.1050@1680.0.1080.1920" timestamp="1605888561263" />
+    <state width="1638" height="561" key="GridCell.Tab.0.bottom/1680.23.1080.1897/0.0.1680.1050@0.0.1680.1050" timestamp="1605803697710" />
+    <state width="1038" height="352" key="GridCell.Tab.0.bottom/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605634130327" />
+    <state width="1038" height="480" key="GridCell.Tab.0.center" timestamp="1605893313616">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1038" height="480" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605893313616" />
     <state width="1038" height="384" key="GridCell.Tab.0.center/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
-    <state width="1038" height="384" key="GridCell.Tab.0.center/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563320" />
-    <state width="1038" height="384" key="GridCell.Tab.0.left" timestamp="1605543563319">
-      <screen x="1680" y="23" width="1080" height="1897" />
+    <state width="1038" height="384" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605627073772" />
+    <state width="1638" height="168" key="GridCell.Tab.0.center/1680.0.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1605805953951" />
+    <state width="1038" height="480" key="GridCell.Tab.0.center/1680.0.1080.1920/0.0.1680.1050@1680.0.1080.1920" timestamp="1605888561262" />
+    <state width="1638" height="561" key="GridCell.Tab.0.center/1680.23.1080.1897/0.0.1680.1050@0.0.1680.1050" timestamp="1605803697708" />
+    <state width="1038" height="352" key="GridCell.Tab.0.center/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605634130326" />
+    <state width="1038" height="480" key="GridCell.Tab.0.left" timestamp="1605893313616">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1038" height="480" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605893313616" />
     <state width="1038" height="384" key="GridCell.Tab.0.left/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
-    <state width="1038" height="384" key="GridCell.Tab.0.left/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563319" />
-    <state width="1038" height="384" key="GridCell.Tab.0.right" timestamp="1605543563320">
-      <screen x="1680" y="23" width="1080" height="1897" />
+    <state width="1038" height="384" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605627073772" />
+    <state width="1638" height="168" key="GridCell.Tab.0.left/1680.0.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1605805953950" />
+    <state width="1038" height="480" key="GridCell.Tab.0.left/1680.0.1080.1920/0.0.1680.1050@1680.0.1080.1920" timestamp="1605888561261" />
+    <state width="1638" height="561" key="GridCell.Tab.0.left/1680.23.1080.1897/0.0.1680.1050@0.0.1680.1050" timestamp="1605803697708" />
+    <state width="1038" height="352" key="GridCell.Tab.0.left/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605634130326" />
+    <state width="1038" height="480" key="GridCell.Tab.0.right" timestamp="1605893313617">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1038" height="480" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605893313617" />
     <state width="1038" height="384" key="GridCell.Tab.0.right/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605462614875" />
-    <state width="1038" height="384" key="GridCell.Tab.0.right/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605543563320" />
-    <state x="1927" y="715" width="586" height="490" key="find.popup" timestamp="1605450299718">
+    <state width="1038" height="384" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605627073773" />
+    <state width="1638" height="168" key="GridCell.Tab.0.right/1680.0.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1605805953952" />
+    <state width="1038" height="480" key="GridCell.Tab.0.right/1680.0.1080.1920/0.0.1680.1050@1680.0.1080.1920" timestamp="1605888561263" />
+    <state width="1638" height="561" key="GridCell.Tab.0.right/1680.23.1080.1897/0.0.1680.1050@0.0.1680.1050" timestamp="1605803697709" />
+    <state width="1038" height="352" key="GridCell.Tab.0.right/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605634130327" />
+    <state x="1927" y="715" width="587" height="1006" key="find.popup" timestamp="1605888534562">
       <screen x="1680" y="0" width="1080" height="1920" />
     </state>
     <state x="1927" y="715" width="586" height="490" key="find.popup/0.0.1680.1050/1680.0.1080.1920@1680.0.1080.1920" timestamp="1605450299718" />
-    <state x="1885" y="469" key="search.everywhere.popup" timestamp="1605460366548">
+    <state x="384" y="391" width="912" height="550" key="find.popup/1680.0.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1605805414123" />
+    <state x="1927" y="715" width="587" height="1006" key="find.popup/1680.0.1080.1920/0.0.1680.1050@1680.0.1080.1920" timestamp="1605888534562" />
+    <state x="279" y="212" key="new project wizard" timestamp="1605619681191">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="279" y="212" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1605619681191" />
+    <state x="1885" y="469" key="search.everywhere.popup" timestamp="1605717050521">
       <screen x="1680" y="23" width="1080" height="1897" />
     </state>
     <state x="1885" y="451" key="search.everywhere.popup/0.0.1680.1050/1680.0.1080.1920@1680.0.1080.1920" timestamp="1605454650358" />
     <state x="1885" y="469" key="search.everywhere.popup/0.23.1680.1027/1680.23.1080.1897@1680.23.1080.1897" timestamp="1605460366548" />
+    <state x="1885" y="469" key="search.everywhere.popup/1680.23.1080.1897/0.23.1680.1027@1680.23.1080.1897" timestamp="1605717050521" />
   </component>
 </project>
