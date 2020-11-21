@@ -3,7 +3,7 @@ package pageUI;
 public class NewCustomerPageUI {
 	public static final String CUSTOMER_NAME_FIELD = "//input[@name='name']";
 	public static final String DATE_OF_BIRTH_FIELD = "//input[@name='dob']";
-	public static final String ADDRESS_FIELD = "//input[@name='addr']";
+	public static final String ADDRESS_FIELD = "//textarea[@name='addr']";
 	public static final String CITY_FIELD = "//input[@name='city']";
 	public static final String STATE_FIELD = "//input[@name='state']";
 	public static final String PIN_FIELD = "//input[@name='pinno']";
@@ -21,4 +21,5 @@ public class NewCustomerPageUI {
 	public static final String PIN = "//td[contains(text(),'Pin')]/following-sibling::td";
 	public static final String MOBILE = "//td[contains(text(),'Mobile No.')]/following-sibling::td";
 	public static final String EMAIL = "//td[contains(text(),'Email')]/following-sibling::td";
+	public static final String CONTINUE_BUTTON = "//a[contains(text(),'Continue')]";
 }

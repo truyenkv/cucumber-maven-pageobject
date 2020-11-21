@@ -28,8 +28,13 @@ public class DashboardPageSteps {
         dashboardPageObject.clickOnNewCustomerMenu();
     }
 
-    @Then("^I back to Dashboard button$")
-    public void i_back_to_dashboard_button() {
+    @Then("^I back to Dashboard button and see \"([^\"]*)\" display.$")
+    public void i_back_to_dashboard_button_and_see_something_display(String usename) {
+        Assert.assertEquals(dashboardPageObject.getUserIDOnScreen(), usename);
+    }
 
+    @Then("^I close application\\.$")
+    public void iCloseApplication() {
+        dashboardPageObject.closeScreen();
     }
 }

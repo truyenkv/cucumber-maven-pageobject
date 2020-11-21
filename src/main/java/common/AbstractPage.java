@@ -10,10 +10,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pageObjects.*;
 import pageUI.AbstractPageUI;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractPage {
@@ -527,6 +527,23 @@ public abstract class AbstractPage {
 
 	public String SplitBy(String message, int index){
 		return message.split(":")[index].trim();
+	}
+
+	public String coverDateTimeFormat(String dateTime){
+		String dateex = null;
+		SimpleDateFormat expect = new SimpleDateFormat("dd-MM-yyyy");
+		SimpleDateFormat current = new SimpleDateFormat("yyyy-MM-dd");
+		try {
+			dateex = expect.format(current.parse(dateTime));
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return dateex;
+	}
+
+	public int randDom(){
+		Random ran = new Random();
+		return ran.nextInt(4);
 	}
 
 }

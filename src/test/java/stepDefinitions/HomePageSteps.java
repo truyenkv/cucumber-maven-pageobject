@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import common.GlobalConstant;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -20,6 +21,7 @@ public class HomePageSteps {
 
     @Given("^I open the Home page$")
     public void i_open_the_home_page() {
+        homePage.openPage(GlobalConstant.URL);
         homePageUrl = homePage.getPageUrl(driver);
     }
 
@@ -40,6 +42,7 @@ public class HomePageSteps {
     @And("^I enter the UserId \"([^\"]*)\" and Password is \"([^\"]*)\" to the login form$")
     public void i_enter_the_userid_something_and_password_is_something_to_the_login_form(String UserID, String Password){
         homePage.loginWithEmailAndPassword(UserID, Password);
+        homePage.clickOnLoginButton();
     }
 
 

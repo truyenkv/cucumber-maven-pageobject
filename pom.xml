@@ -15,6 +15,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
+        <report.version>3.20.0</report.version>
+
     </properties>
 
     <dependencies>
@@ -52,6 +54,14 @@
             <version>3.0.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/faker/faker -->
         <!-- https://mvnrepository.com/artifact/org.webjars.npm/faker -->
@@ -73,7 +83,7 @@
         <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
-            <version>3.20.0</version>
+            <version>${report.version}</version>
         </dependency>
     </dependencies>
 
@@ -96,9 +106,20 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.18.1</version>
+<!--                <configuration>-->
+<!--                    <testFailureIgnore>true</testFailureIgnore>-->
+<!--                    <includes>-->
+<!--                        <include>**/*/TestRunner.java</include>-->
+<!--                    </includes>-->
+<!--                </configuration>-->
                 <configuration>
+                    <parallel>classes</parallel>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <forkMode>perthread</forkMode>
+                    <threadCount>3</threadCount>
+                    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
                     <includes>
-                        <include>**/*/CucumberTestRunner.java</include>
+                        <include>**/*/*Runner.java</include>
                     </includes>
                 </configuration>
             </plugin>
@@ -107,7 +128,7 @@
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
-                <version>3.10.0</version>
+                <version>${report.version}</version>
                 <executions>
                     <execution>
                         <id>execution</id>
@@ -117,10 +138,14 @@
                         </goals>
                         <configuration>
                             <projectName>SELENIUM ONLINE - BANK GURU</projectName>
+
                             <outputDirectory>${project.build.directory}/site/cucumber-reporting</outputDirectory>
-                            <cucumberOutput>${project.build.directory}/site/cucumber.json</cucumberOutput>
-                            <!--                            <enableFlashCharts>true</enableFlashCharts>-->
-                            <!--                            <skippedFails>true</skippedFails>-->
+                            <inputDirectory>${project.build.directory}/site</inputDirectory>
+<!--                             <cucumberOutput>${project.build.directory}/site/cucumber.json</cucumberOutput>-->
+                            <jsonFiles>
+                                <param>**/*.json</param>
+                            </jsonFiles>
+<!--                             <skippedFails>true</skippedFails>-->
                         </configuration>
                     </execution>
                 </executions>

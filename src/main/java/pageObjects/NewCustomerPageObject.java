@@ -2,8 +2,8 @@
 
   import common.AbstractPage;
   import org.openqa.selenium.WebDriver;
-  import pageUI.DashboardPageUI;
   import pageUI.NewCustomerPageUI;
+
 
   public class NewCustomerPageObject extends AbstractPage{
       WebDriver driver;
@@ -32,7 +32,44 @@
           clickToElement(driver, NewCustomerPageUI.SUBMIT_BUTTON);
       }
 
-      public void checkUserInforIsCreateCorrectly(String customerName, String dateofBirth, String address, String city, String state, String pin, String mobileNumber, String email) {
+      public String getCustomerName(){
+          waitForElementVisible(driver, NewCustomerPageUI.CUSTOMER_NAME);
+          return getElementText(driver, NewCustomerPageUI.CUSTOMER_NAME);
 
+      }
+      public String getBirthday(){
+          waitForElementVisible(driver, NewCustomerPageUI.BIRTHDAY);
+          System.out.println(getElementText(driver, NewCustomerPageUI.BIRTHDAY));
+          return coverDateTimeFormat(getElementText(driver, NewCustomerPageUI.BIRTHDAY).toString());
+      }
+      public String getAddress(){
+          waitForElementVisible(driver, NewCustomerPageUI.ADDRESS);
+          return getElementText(driver, NewCustomerPageUI.ADDRESS);
+      }
+      public String getCity(){
+          waitForElementVisible(driver, NewCustomerPageUI.CITY);
+          return getElementText(driver, NewCustomerPageUI.CITY);
+      }
+      public String getState(){
+          waitForElementVisible(driver, NewCustomerPageUI.STATE);
+          return getElementText(driver, NewCustomerPageUI.STATE);
+      }
+      public String getPin(){
+          waitForElementVisible(driver, NewCustomerPageUI.PIN);
+          return getElementText(driver, NewCustomerPageUI.PIN);
+      }
+      public String getMobile(){
+          waitForElementVisible(driver, NewCustomerPageUI.MOBILE);
+          return getElementText(driver, NewCustomerPageUI.MOBILE);
+      }
+      public String getEmail(){
+          waitForElementVisible(driver, NewCustomerPageUI.EMAIL);
+          return getElementText(driver, NewCustomerPageUI.EMAIL);
+      }
+
+      public DashboardPageObject clickOnContinueButton() {
+          waitForElementClickable(driver, NewCustomerPageUI.CONTINUE_BUTTON);
+          clickToElement(driver, NewCustomerPageUI.CONTINUE_BUTTON);
+          return PageGeneratorManager.getDashboard(driver);
       }
   }

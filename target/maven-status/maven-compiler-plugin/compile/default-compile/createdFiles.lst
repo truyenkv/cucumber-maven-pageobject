@@ -1,0 +1,15 @@
+pageUI/NewCustomerPageUI.class
+pageObjects/PageGeneratorManager.class
+common/GlobalConstant.class
+pageObjects/UserLoginPageObject.class
+pageUI/UserLoginPageUI.class
+pageObjects/NewCustomerPageObject.class
+pageUI/DashboardPageUI.class
+pageObjects/DashboardPageObject.class
+pageUI/RegisterPageUI.class
+pageUI/HomePageUI.class
+pageObjects/RegisterPageObject.class
+pageUI/AbstractPageUI.class
+pageObjects/HomePageObject.class
+common/AbstractPage.class
+common/DataUntil.class

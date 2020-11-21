@@ -33,6 +33,7 @@ public class HomePageObject extends AbstractPage {
 	}
 
 
-
-
+	public void openPage(String url) {
+		openUrl(driver, url);
+	}
 }

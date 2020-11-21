@@ -21,4 +21,8 @@
           waitForElementVisible(driver, DashboardPageUI.NEW_CUSTOMER);
           clickToElement(driver, DashboardPageUI.NEW_CUSTOMER);
       }
+
+      public void closeScreen() {
+          driver.quit();
+      }
   }
