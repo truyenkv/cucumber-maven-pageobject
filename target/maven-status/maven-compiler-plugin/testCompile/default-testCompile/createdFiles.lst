@@ -1,9 +1,13 @@
 stepDefinitions/NewCustomerPageSteps.class
-stepDefinitions/DashboardPageSteps.class
+stepDefinitions/Context.class
+stepDefinitions/TextContext.class
 cucumberOptions/Test1Runner.class
-stepDefinitions/HomePageSteps.class
-cucumberOptions/Hooks$1.class
+cucumberOptions/Test3Runner.class
 cucumberOptions/Hooks$BrowserCleanup.class
 cucumberOptions/Test2Runner.class
-stepDefinitions/RegisterPageSteps.class
 cucumberOptions/Hooks.class
+stepDefinitions/DashboardPageSteps.class
+stepDefinitions/HomePageSteps.class
+cucumberOptions/Hooks$1.class
+stepDefinitions/RegisterPageSteps.class
+stepDefinitions/DataContext.class

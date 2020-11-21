@@ -13,10 +13,12 @@ import pageObjects.RegisterPageObject;
 public class RegisterPageSteps {
 
     WebDriver driver;
+    TextContext textContext;
     RegisterPageObject registerPageObject;
     public static String userId, pass;
 
-    public RegisterPageSteps() {
+    public RegisterPageSteps(TextContext textContext) {
+        this.textContext = textContext;
         driver = Hooks.openAndQuitBrowser();
         registerPageObject = PageGeneratorManager.getRegisterPage(driver);
     }
@@ -27,7 +29,8 @@ public class RegisterPageSteps {
     }
     @When("^I back to Home page$")
     public void i_back_to_home_page() {
-        registerPageObject.openUrl(driver, HomePageSteps.homePageUrl);
+        registerPageObject.openUrl(driver, textContext.getDataContext().getContext(Context.HOME_URL).toString());
+//        registerPageObject.openUrl(driver, HomePageSteps.homePageUrl);
     }
 
     @Then("^I get the UserID and Password$")

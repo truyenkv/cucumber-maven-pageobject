@@ -13,8 +13,10 @@ public class HomePageSteps {
 
     HomePageObject homePage;
     WebDriver driver;
-    public static String homePageUrl;
-    public HomePageSteps() {
+    TextContext textContext;
+//    public static String homePageUrl;
+    public HomePageSteps(TextContext textContext) {
+        this.textContext = textContext;
         driver = Hooks.openAndQuitBrowser();
         homePage = PageGeneratorManager.getHomePage(driver);
     }
@@ -22,7 +24,7 @@ public class HomePageSteps {
     @Given("^I open the Home page$")
     public void i_open_the_home_page() {
         homePage.openPage(GlobalConstant.URL);
-        homePageUrl = homePage.getPageUrl(driver);
+        textContext.getDataContext().setContext(Context.HOME_URL, homePage.getPageUrl(driver));
     }
 
     @When("^I click on Visit here link$")

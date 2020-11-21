@@ -1,7 +1,7 @@
 @feature01
 Feature: Register Account and Login
 
-  @register @test1
+  @register @test1 @textContext
   Scenario: Register Account
     Given I open the Home page
     When I click on Visit here link

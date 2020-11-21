@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Register Account" time="0.002" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="Scenario: Register Account" time="0" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
@@ -64,21 +64,12 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="Scenario: Register Account" classname="Scenario: Register Account" time="0"/>
-  <testcase name="Scenario: Register Account" classname="Scenario: Register Account" time="0"/>
-  <testcase name="Given I open the Home page" classname="Scenario: Register Account" time="0.001"/>
   <testcase name="Given I open the Home page" classname="Scenario: Register Account" time="0"/>
-  <testcase name="When I click on Visit here link" classname="Scenario: Register Account" time="0.001"/>
   <testcase name="When I click on Visit here link" classname="Scenario: Register Account" time="0"/>
   <testcase name="And I input my email to the Email ID field and Submit" classname="Scenario: Register Account" time="0"/>
-  <testcase name="And I input my email to the Email ID field and Submit" classname="Scenario: Register Account" time="0"/>
   <testcase name="Then I get the UserID and Password" classname="Scenario: Register Account" time="0"/>
-  <testcase name="Then I get the UserID and Password" classname="Scenario: Register Account" time="0"/>
-  <testcase name="When I back to Home page" classname="Scenario: Register Account" time="0"/>
   <testcase name="When I back to Home page" classname="Scenario: Register Account" time="0"/>
   <testcase name="And I enter the UserID and Password to the login form" classname="Scenario: Register Account" time="0"/>
-  <testcase name="And I enter the UserID and Password to the login form" classname="Scenario: Register Account" time="0.001"/>
   <testcase name="And I click on Login button" classname="Scenario: Register Account" time="0"/>
-  <testcase name="And I click on Login button" classname="Scenario: Register Account" time="0"/>
-  <testcase name="Then I can see my UserID on the Dashboard" classname="Scenario: Register Account" time="0"/>
   <testcase name="Then I can see my UserID on the Dashboard" classname="Scenario: Register Account" time="0"/>
 </testsuite>
