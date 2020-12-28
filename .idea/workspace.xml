@@ -13,88 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaab8e60-a2fd-4941-a212-aa1e1ec291f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/feature/Featear01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/Featear01.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/AbstractPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/DataUntil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/GlobalConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/DashboardPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/NewCustomerPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PageGeneratorManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/RegisterPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/UserLoginPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/AbstractPageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/DashboardPageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/HomePageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/NewCustomerPageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/RegisterPageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageUI/UserLoginPageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-maven-pageobject-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-report-default/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/overview-failures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/overview-features.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/overview-steps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/overview-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/report-feature_Featear01-feature.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/report-tag_create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/report-tag_feature01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/report-tag_register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/report-tag_test1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/report-tag_test2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reporting/cucumber-html-reports/report-tag_textContext.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber_feature01.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Scenario: Register Account.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Scenario: Register Account.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-| Truyenkieu | 10-10-1991 | 123 Ngo Tat To | Ho Chi Minh | Phu Nhuan | 123456 | 0984443434 | t40d@yop.com | Aa123456 |.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/| Truyenkieu | 10-10-1991 | 123 Ngo Tat To | Ho Chi Minh | Phu Nhuan | 123456 | 0984443434 | t40d@yop.com | Aa123456 |.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Hooks$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Hooks$BrowserCleanup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Hooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Test1Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Test2Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/Test3Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/DashboardPageSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/DataContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/HomePageSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/NewCustomerPageSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/RegisterPageSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/TextContext.class" beforeDir="false" />
-    </list>
+    <list default="true" id="aaab8e60-a2fd-4941-a212-aa1e1ec291f7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,6 +177,7 @@
       <workItem from="1608473364516" duration="512000" />
       <workItem from="1608764709184" duration="1796000" />
       <workItem from="1609165013436" duration="110000" />
+      <workItem from="1609169947295" duration="371000" />
     </task>
     <servers />
   </component>
