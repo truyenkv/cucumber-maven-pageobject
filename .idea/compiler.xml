@@ -9,5 +9,8 @@
         <module name="cucumber-maven-pageobject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cucumber-maven-pageobject" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -16,7 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-public abstract class AbstractPage {
+public class AbstractPage {
 
 	private Alert alert;
 	private WebDriverWait explicitWait;

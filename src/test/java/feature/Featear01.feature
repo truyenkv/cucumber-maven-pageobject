@@ -18,17 +18,17 @@ Feature: Register Account and Login
     And I enter the UserId "mngr295153" and Password is "Esavupy" to the login form
     When I click New Customer on the Left menu
     Then I add the user information
-      |CustomerName  | DateofBirth  |Address  |City  |State  | PIN | MobileNumber  | Email | Password |
-      |<CustomerName>| <DateofBirth>|<Address>|<City>|<State>|<PIN>| <MobileNumber>|<Email>|<Password>|
+      | CustomerName   | DateofBirth   | Address   | City   | State   | PIN   | MobileNumber   | Email   | Password   |
+      | <CustomerName> | <DateofBirth> | <Address> | <City> | <State> | <PIN> | <MobileNumber> | <Email> | <Password> |
     When I click the Submit button
     Then I see the information of Customer displays correctly
-      |CustomerName  | DateofBirth  |Address  |City  |State  | PIN | MobileNumber  | Email | Password |
-      |<CustomerName>| <DateofBirth>|<Address>|<City>|<State>|<PIN>| <MobileNumber>|<Email>|<Password>|
+      | CustomerName   | DateofBirth   | Address   | City   | State   | PIN   | MobileNumber   | Email   | Password   |
+      | <CustomerName> | <DateofBirth> | <Address> | <City> | <State> | <PIN> | <MobileNumber> | <Email> | <Password> |
     When I click Continue button
     Then I back to Dashboard button and see "mngr295153" display.
 
 
     Examples:
-    |CustomerName | DateofBirth | Address         | City          | State       | PIN       | MobileNumber | Email            | Password |
-    |Truyenkieu   | 10-10-1991  | 123 Ngo Tat To  | Ho Chi Minh   | Phu Nhuan   | 123456   | 0984443434   | t40d@yop.com | Aa123456 |
+      | CustomerName | DateofBirth | Address        | City        | State     | PIN    | MobileNumber | Email        | Password |
+      | Truyenkieu   | 10-10-1991  | 123 Ngo Tat To | Ho Chi Minh | Phu Nhuan | 123456 | 0984443434   | t40d@yop.com | Aa123456 |
 
