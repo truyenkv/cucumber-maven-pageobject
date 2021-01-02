@@ -15,7 +15,7 @@ Feature: Register Account and Login
   @create @test2
   Scenario Outline: Create User Account
     Given I open the Home page
-    And I enter the UserId "mngr295153" and Password is "Esavupy" to the login form
+    And I enter the UserId "mngr302259" and Password is "EraqadA" to the login form
     When I click New Customer on the Left menu
     Then I add the user information
       |CustomerName  | DateofBirth  |Address  |City  |State  | PIN | MobileNumber  | Email | Password |
