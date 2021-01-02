@@ -29,6 +29,6 @@ Feature: Register Account and Login
 
 
     Examples:
-      | CustomerName | DateofBirth | Address        | City        | State     | PIN    | MobileNumber | Email        | Password |
-      | Truyenkieu   | 10-10-1991  | 123 Ngo Tat To | Ho Chi Minh | Phu Nhuan | 123456 | 0984443434   | t1410d@yop.com | Aa123456 |
+      | CustomerName | DateofBirth | Address        | City        | State     | PIN    | MobileNumber | Email           | Password |
+      | Truyenkieu   | 10-10-1991  | 123 Ngo Tat To | Ho Chi Minh | Phu Nhuan | 123456 | 0984443434   | t12410d@yop.com | Aa123456 |
 

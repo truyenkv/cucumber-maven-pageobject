@@ -15,8 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aaab8e60-a2fd-4941-a212-aa1e1ec291f7" name="Default Changelist" comment="ignore target">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/feature/Featear01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/Featear01.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/feature/Feature02.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/Feature02.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,7 @@
       <workItem from="1608764709184" duration="1796000" />
       <workItem from="1609165013436" duration="110000" />
       <workItem from="1609169947295" duration="822000" />
-      <workItem from="1609588100373" duration="997000" />
+      <workItem from="1609588100373" duration="1617000" />
     </task>
     <task id="LOCAL-00001" summary="ignore target">
       <created>1609170605188</created>
@@ -284,11 +284,11 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="664" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.23.1080.1897/0.23.1680.1027@0.23.1680.1027" timestamp="1605981436140" />
-    <state x="384" y="391" width="914" height="551" key="find.popup" timestamp="1609588237558">
+    <state x="384" y="391" width="914" height="551" key="find.popup" timestamp="1609591869393">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1927" y="715" width="586" height="490" key="find.popup/0.0.1680.1050/1680.0.1080.1920@1680.0.1080.1920" timestamp="1605450299718" />
-    <state x="384" y="391" width="914" height="551" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1609588237558" />
+    <state x="384" y="391" width="914" height="551" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1609591869393" />
     <state x="384" y="391" width="912" height="550" key="find.popup/1680.0.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1605805414123" />
     <state x="1927" y="715" width="587" height="1006" key="find.popup/1680.0.1080.1920/0.0.1680.1050@1680.0.1080.1920" timestamp="1605888534562" />
     <state x="279" y="212" key="new project wizard" timestamp="1605619681191">
