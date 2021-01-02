@@ -25,10 +25,10 @@ Feature: Register Account and Login
       | CustomerName   | DateofBirth   | Address   | City   | State   | PIN   | MobileNumber   | Email   | Password   |
       | <CustomerName> | <DateofBirth> | <Address> | <City> | <State> | <PIN> | <MobileNumber> | <Email> | <Password> |
     When I click Continue button
-    Then I back to Dashboard button and see "mngr295153" display.
+    Then I back to Dashboard button and see "mngr302259" display.
 
 
     Examples:
       | CustomerName | DateofBirth | Address        | City        | State     | PIN    | MobileNumber | Email        | Password |
-      | Truyenkieu   | 10-10-1991  | 123 Ngo Tat To | Ho Chi Minh | Phu Nhuan | 123456 | 0984443434   | t140d@yop.com | Aa123456 |
+      | Truyenkieu   | 10-10-1991  | 123 Ngo Tat To | Ho Chi Minh | Phu Nhuan | 123456 | 0984443434   | t1410d@yop.com | Aa123456 |
 
