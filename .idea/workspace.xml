@@ -14,7 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaab8e60-a2fd-4941-a212-aa1e1ec291f7" name="Default Changelist" comment="ignore target">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/feature/Featear01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/Featear01.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/feature/Feature02.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/Feature02.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +183,7 @@
       <workItem from="1608764709184" duration="1796000" />
       <workItem from="1609165013436" duration="110000" />
       <workItem from="1609169947295" duration="822000" />
-      <workItem from="1609588100373" duration="520000" />
+      <workItem from="1609588100373" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="ignore target">
       <created>1609170605188</created>
